@@ -27,7 +27,7 @@ public class Person {
         printCreditResult(isLoanAcceptable, capital, p, installment, month, loanType);
     }
 
-    void printCreditResult(Boolean b, int capital, Person person,
+    public void printCreditResult(Boolean b, int capital, Person person,
                            double installment, int month, String loanType) {
         if (b) {
             System.out.println("Congratulation " + person.getName() + " " + person.getSurname() + "!");
